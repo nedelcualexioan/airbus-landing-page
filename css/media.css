@@ -1,0 +1,68 @@
+@media (min-width: 900px) {
+
+    article {
+        border-radius: 0;
+        box-shadow: none;
+        margin: auto;
+        
+    }
+
+    /* Fleet section */
+
+    .carousel {
+        width: 55%;
+        margin: auto;
+    }
+
+    .carousel__img {
+        padding: 5% 0% 18%;
+    }
+
+    .carousel-indicators {
+        margin-top: 10rem;
+    }
+
+    .carousel-caption {
+        padding-bottom: 2.8rem;
+    }
+
+    /* News section */
+    .news {
+        padding: 5% 15%;
+    }
+
+    .article__text {
+        padding: 1.5rem 2.5rem;
+        text-align: left;
+    }
+
+    .article_1, .article_3 {
+        transform: translate(-100px, -50px);
+    }
+
+    .article_2 {
+        transform: translate(100px, -50px);
+    }
+
+    .news__img {
+        width: 100%;
+        max-height: 600px;
+        object-fit: cover;
+        padding: 0;
+    }
+
+    .article__header {
+        margin-bottom: 2rem;
+
+        font-weight: var(--fw-regular);
+        font-size: 30px;
+    }
+
+    article p {
+        font-size: 14px;
+    }
+
+    .about-us a {
+        color: white;
+    }
+}

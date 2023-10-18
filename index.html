@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">                                                                                                  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbus</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    
+    <script src="https://kit.fontawesome.com/e550d35b67.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="nav_container container-fluid justify-content-center">
+      <a class="navbar-brand" href="#">
+        <img class="navbar__logo" src="images/logo.svg" alt="airbus logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5 text-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Acasa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fleet.html">Aeronave</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="title">
+
+      <video class="title__video" loop autoplay muted>
+        <source src="images/airbus_trailer.mp4" type="video/mp4">
+      </video>
+
+    </section>
+
+    <section class="fleet">
+
+      <h2 class="fleet_h2">MUZEUL AIRBUS</h2>
+
+      <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-interval="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="images/a220.png" class="carousel__img" alt="airbus a220 image">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h3>A220 FAMILY</h5>
+              <p>"Purpose built for efficiency."</p>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="images/a320.png" class="carousel__img" alt="airbus a320 image">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h3>A320 FAMILY</h5>
+              <p>"Unbeatable fuel efficiency"</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/a330.png" class="carousel__img" alt="airbus a330 image">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h3>A330 FAMILY</h5>
+              <p>"Powering into the future"</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/a350.png" class="carousel__img" alt="airbus a350 image">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h3>A350 FAMILY</h5>
+              <p>"Shaping the future of air travel"</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/a380.png" class="carousel__img" alt="airbus a380 image">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h3>A380 FAMILY</h5>
+              <p>"Unique passenger experience"</p>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+    <section class="news">
+
+      <h1>NOUTATI</h1>
+      <hr>
+
+      <div class="news__container">
+
+        <article class="news__item row align-items-end">
+          <div class="col-md-7 col-lg-7">
+            <img class="news__img" src="images/a321xlr-article.png" alt="a321xlr image">
+          </div>
+
+          <div class="card article__text article_1 col-md-5 col-lg-5">
+            <h2 class="article__header">Primul zbor pentru Airbus A321XLR</h2>
+            <p>Airbus A321XLR, a efectuat recent primul zbor.
+              Conform unui comunicat al celor de la Airbus, acesta a decolat pe 15 iunie
+              de pe aeroportul din Hamburg și a efectuat un zbor de peste 4 ore.
+              A321XLR va veni cu o distanță maximă de zbor de peste 8,700 de kilometri și ar putea
+              seta noi referințe pentru zborurile intercontinentale.</p>
+          </div>
+        </article>
+
+        <article class="news__item row align-items-end flex-row-reverse">
+          <div class="col-md-7 col-lg-7">
+            <img class="news__img" src="images/a320-article.webp" alt="a321xlr image">
+          </div>
+
+          <div class="card article__text article_2 col-md-5 col-lg-5">
+            <h2 class="article__header">Airbus creste productia de A320</h2>
+            <p>Pentru a satisface cererea în creștere pentru A320, cea mai bine vândută gamă,
+              Airbus a luat decizia de a spori și mai mult rata de producție a aeronavei cu un singur culoar,
+              la 60 de aeronave pe lună, începând cu jumătatea anului 2019.</p>
+          </div>
+        </article>
+
+        <article class="news__item row align-items-end">
+          <div class="col-md-7 col-lg-7">
+            <img class="news__img" src="images/a380-article.png" alt="a321xlr image">
+          </div>
+
+          <div class="card article__text article_3 col-md-5 col-lg-5">
+            <h2 class="article__header">Viitor incert pentru Airbus A380</h2>
+            <p>Cel mai mare avion de pasageri din lume, Airbus A380, are parte de un viitor incert,
+              luandu-se in discutie tot mai serios renuntarea la producerea sa.
+              Potrivit mai multor informatii din presa de specialitate, A380 nu a obtinut nicio comanda in acest an,
+              ba chiar mai multe comenzi plasate anterior fiind in pericol de anulare.</p>
+          </div>
+        </article>
+
+      </div>
+      
+    </section>
+
+    <section class="about-us">
+
+      <div class="container">
+        <h2 class="about-us__title">Airbus GmbH</h2>
+
+        <p class="about-us__text">Airbus GmbH / S. A. S. este o companie europeană constructoare de avioane, 
+          fondată în anul 1970, printr-o înțelegere între Franța, Germania și Marea Britanie 
+          care doreau să creeze concurență pentru monopolul american pe piața avioanelor.
+        </p>
+
+        <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-light text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-light">© 2023 AIRBUS</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
+              <li>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+            </ul> 
+          </footer>
+        </div>
+
+      </div>
+      
+    </section>
+
+  </main>
+    
+</body>
+</html>
